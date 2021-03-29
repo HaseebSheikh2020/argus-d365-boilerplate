@@ -1,0 +1,6 @@
+# Ignore artifacts:
+_xrm-deployment
+config
+scripts
+node_modules
+src/typings
