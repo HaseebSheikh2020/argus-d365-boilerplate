@@ -49,3 +49,5 @@ This Tool can be used to generate typing. For more detailed information please r
     - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 - Webpack JS Bundler
     - https://webpack.js.org/
+- UI Lib 
+    - https://developer.microsoft.com/de-de/fluentui#/
