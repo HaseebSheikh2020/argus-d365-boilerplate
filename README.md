@@ -1,7 +1,22 @@
 # Introduction
-This Repository represents the structure for common d365 Avantic Project for in the cloud
+This Repository represents the structure for common d365 Frontend Projects in the cloud. It uses typescript and webpack as development tools. In order to use XRM Typings it make use of XrmDefinitelyTyped Generator. In the following is the setup for this repository.
 
-# Generate Xrm-Definately-Types (frontend model for typescript)
+## Prerequisites
+- NodeJs
+    - https://nodejs.org
+- VSCode 
+    - https://code.visualstudio.com/
+- Yarn
+    - `npm install -g yarn`
+
+## Setup Frontend
+1. Install Prerequisites
+1. Open Terminal and navigate to ./frontend/web-resources
+3. Run yarn  `yarn` in order to install required node_modules
+4. Generate Xrm-Definately-Types as described below
+5. Run `yarn dev` in order to build javascript. The scripts are defined in package.json
+
+## Generate Xrm-Definately-Types (frontend model for typescript)
 
 This Tool can be used to generate typing. For more detailed information please refer to https://github.com/delegateas/XrmDefinitelyTyped/wiki/Tool-usage
 
@@ -23,6 +38,14 @@ This Tool can be used to generate typing. For more detailed information please r
     - `frontend\web-resources\scripts`
     - `frontend\web-resources\src\typings\xrm`
 
-# Frontend
-
-
+## Useful Links
+- Tool for webresoruce Deployment
+    - https://github.com/derekfinlinson/powerapps-tools
+- Prettier Code Formatter
+    - https://prettier.io/
+    - https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+- Eslint (Javascript Linter)
+    - https://eslint.org/
+    - https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+- Webpack JS Bundler
+    - https://webpack.js.org/
