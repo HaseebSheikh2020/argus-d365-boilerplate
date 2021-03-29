@@ -1,1 +1,1 @@
-# argus-d365-boilerplate
+# d365-webresource-boilerplate
